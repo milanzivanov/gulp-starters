@@ -1,0 +1,45 @@
+/* ----------------- Libraries
+----------------------------------------------------------------------- */
+//@import "compass";
+@import "config/reset";
+@import "config/variables";
+/* ----------------- Helpers
+----------------------------------------------------------------------- */
+@import "helpers/mixins";
+@import "helpers/helpers";
+@import "helpers/ie";
+/* ----------------- Base
+----------------------------------------------------------------------- */
+@import "base/layout";
+@import "base/typography";
+/* ----------------- Layout
+----------------------------------------------------------------------- */
+/* ----------------- Lib
+----------------------------------------------------------------------- */
+/* ----------------- Layout
+----------------------------------------------------------------------- */
+@import "layout/buttons";
+@import "layout/forms";
+@import "layout/icons";
+/* ----------------- Partials
+----------------------------------------------------------------------- */
+@import "partials/footer";
+@import "partials/header";
+/* ----------------- scss main
+----------------------------------------------------------------------- */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(92, 205, 101);
+}
+
+.container {
+  @include float-primary;
+}
+
+.wrapper {
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 1em;
+}
