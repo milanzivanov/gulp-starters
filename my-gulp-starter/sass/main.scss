@@ -31,15 +31,5 @@
 body, html {
   height: 100%;
   width: 100%;
-  background-color: rgb(92, 205, 101);
-}
-
-.container {
-  @include float-primary;
-}
-
-.wrapper {
-  background-color: yellowgreen;
-  text-align: center;
-  padding: 1em;
+  background-color: springgreen;
 }

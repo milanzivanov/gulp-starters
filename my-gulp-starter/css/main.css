@@ -133,13 +133,4 @@ html {
 body, html {
   height: 100%;
   width: 100%;
-  background-color: #5ccd65; }
-
-.container {
-  width: 100%;
-  float: left; }
-
-.wrapper {
-  background-color: yellowgreen;
-  text-align: center;
-  padding: 1em; }
+  background-color: springgreen; }
